@@ -1,5 +1,5 @@
 var React = require('react');
-var Home = require('./Home')
+var Home = require('./Home.jsx')
 
 var Main = React.createClass({
 	render: function() {
