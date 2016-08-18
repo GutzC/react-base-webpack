@@ -1,7 +1,9 @@
-#react-base
+# react-base-webpack
 
 Basic boilerplate for a react project (v1.0):
 - Webpack build system
-  - Babel
+  - JSX
+  - [Sass]
+  - [ES2015]
 - Express server
-- React JavaScript support
+- React Router
