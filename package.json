@@ -1,12 +1,12 @@
 {
-  "name": "reactjs-program",
+  "name": "react-base-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "serve": "nodemon server.js",
     "build": "webpack -w",
-    "serve": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
