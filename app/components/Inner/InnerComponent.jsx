@@ -1,4 +1,4 @@
-var React = require('react');
+import React from 'react'
 
 require('../../styles/main/inner.scss');
 
