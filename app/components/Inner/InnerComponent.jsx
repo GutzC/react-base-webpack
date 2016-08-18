@@ -1,10 +1,12 @@
 var React = require('react');
 
+require('../../styles/main/inner.scss');
+
 var InnerComponent = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<h2 style={{color:'rebeccapurple'}}>This is the inner component, dogg.</h2>
+				<h2 className='inner-component'>This is the inner component, dogg.</h2>
 			</div>
 		)
 	}

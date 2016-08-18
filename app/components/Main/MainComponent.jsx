@@ -1,5 +1,7 @@
 var React = require('react');
 
+require('../../styles/main/main.scss');
+
 var MainComponent = React.createClass({
 	contextTypes: {
 		router: React.PropTypes.object.isRequired
@@ -10,7 +12,7 @@ var MainComponent = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<h1 style={{color:'red'}}>This is the MainComponent bro.</h1>
+				<h1 className='main-component'>This is the MainComponent bro.</h1>
 				<h4
 					style={{color: 'blue', cursor:'pointer'}}
 					onClick={this.handleRoute}>
