@@ -7,17 +7,18 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 
 module.exports = {
     entry: [
+		'webpack/hot/only-dev-server', // prevents hot-reloading on syntax errors
         './app/index.js'
     ],
     module: {
         loaders: [
-            {test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader"},
+            {test: /\.jsx?$/, exclude: /node_modules/, loaders: ['react-hot', 'babel-loader']},
 			{test: /\.scss$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']}
         ]
     },
     output: {
 		path: __dirname + '/dist',
-        filename: "index_bundle.js"
+        filename: 'index_bundle.js'
     },
     plugins: [HTMLWebpackPluginConfig]
 }

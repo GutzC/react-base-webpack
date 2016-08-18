@@ -1,6 +1,5 @@
 import React from 'react'
-
-require('../../styles/main/inner.scss');
+import '../../styles/main/inner.scss'
 
 var InnerComponent = React.createClass({
 	render: function() {
