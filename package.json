@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "nodemon server.js",
     "build": "webpack -w",
-    "start": "webpack-dev-server --inline --hot"
+    "start": "webpack-dev-server --inline"
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +19,6 @@
     "css-loader": "^0.23.1",
     "html-webpack-plugin": "^2.22.0",
     "node-sass": "^3.8.0",
-    "react-hot-loader": "^1.3.0",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",

@@ -4,9 +4,9 @@ var React = require('react'),
 	Route = ReactRouter.Route,
 	browserHistory = ReactRouter.browserHistory,
 	IndexRoute = ReactRouter.IndexRoute,
-	MainContainer = require('../components/Main/MainContainer.jsx'),
-	MainComponent = require('../components/Main/MainComponent.jsx'),
-	InnerComponent = require('../components/Inner/InnerComponent.jsx');
+	MainContainer = require('../components/Main/MainContainer.js'),
+	MainComponent = require('../components/Main/MainComponent.js'),
+	InnerComponent = require('../components/Inner/InnerComponent.js');
 
 var routes = (
 	<Router history={browserHistory}>
