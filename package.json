@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "nodemon server.js",
     "build": "webpack -w",
-    "start": "webpack-dev-server --inline"
+    "start": "webpack-dev-server --inline --hot"
   },
   "author": "",
   "license": "ISC",
