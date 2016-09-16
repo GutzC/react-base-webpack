@@ -11,8 +11,9 @@ module.exports = {
 	],
 	module: {
 		loaders: [
-			{test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader']},
-			{test: /\.scss$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']}
+			{test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader']}
+            // NOTE: currently trying out Radium instead --->
+			// {test: /\.scss$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']}
 		]
 	},
 	output: {
