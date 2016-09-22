@@ -9,6 +9,10 @@ module.exports = {
 	entry: [
 		'./app/index.js'
 	],
+	devServer: {
+		port: 8080,
+		inline: true
+	},
 	module: {
 		loaders: [
 			{test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader']}
