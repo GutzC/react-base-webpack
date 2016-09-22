@@ -11,7 +11,8 @@ module.exports = {
 	],
 	devServer: {
 		port: 8080,
-		inline: true
+		inline: true,
+		hot: true
 	},
 	module: {
 		loaders: [
